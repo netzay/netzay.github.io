@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My post on "Self""
-date:       2018-06-19 23:07:26 +0000
+date:       2018-06-19 19:07:26 -0400
 permalink:  my_post_on_self
 ---
 
