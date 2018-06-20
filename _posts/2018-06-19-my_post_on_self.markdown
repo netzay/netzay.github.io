@@ -5,10 +5,9 @@ date:       2018-06-19 19:07:26 -0400
 permalink:  my_post_on_self
 ---
 
-The idea of self, describing the nuances as it pertains to Ruby instead of self as it pertains to me, ended up being a more daunty task than I originally imagined in my newbie programmer brain.  I know I still have lots to learn and as they say practice makes perfect so here it goes...
+The idea of self, describing the nuances as it pertains to Ruby instead of self as it pertains to me, ended up being a more daunting task than I originally imagined in my newbie programmer brain.  I know I still have lots to learn and as they say practice makes perfect, so here it goes...
 
-
-First and most basically, calling self on a method in Ruby, refers the call implicity, to the current object being received.  
+First, calling self on a method in Ruby, refers the call implicity, to the current object being received.  
 
 In Ruby, the value of using the keyword self, can vary based on the specific context in which it is used.  Importantly and maybe obviously, when self is used, at any given time it will only ever refer to the current specific object it is being called on.  In other words self can never be referring to two objects at any given time, only one.
 
