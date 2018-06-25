@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Why I chose software development."
+title:      " Why I chose software development."
 date:       2018-04-29 20:39:53 -0400
 permalink:  why_i_chose_software_development
 ---
