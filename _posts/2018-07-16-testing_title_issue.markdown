@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Testing title issue"
-date:       2018-07-16 18:45:13 +0000
+title:      "My post on the Ruby keyword "self""
+date:       2018-07-16 14:45:13 -0400
 permalink:  testing_title_issue
 ---
 
