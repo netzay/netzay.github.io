@@ -22,7 +22,7 @@ To demonstrate:
 Self called within the class: *puts the class itself  "Flower" *
 Self called within the instance method puts the current object: 
 *"#<Flower:0x007ff8f9016f18>"*
-Calling an instance of the class on a class method will still return the parent class: *"Flower" *![](http://)
+Calling an instance of the class on a class method will still return the parent class: *"Flower" *
 
 
 Calling a class method within an instance method is one example of when the need to explicitly specify the receiver call will be self.  
