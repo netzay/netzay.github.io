@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Recipe Book (Rails) Putting the pieces together"
-date:       2018-11-20 15:43:46 +0000
+date:       2018-11-20 10:43:47 -0500
 permalink:  recipe_book_rails_putting_the_pieces_together
 ---
 
