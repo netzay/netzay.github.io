@@ -1,15 +1,14 @@
 # Site settings
+author: Ally Netzel
 title: Ally's Coding Journey Blog
 header-img: img/home-bg.png
 email: netzelally@gmail.com
-copyright_name: netzay
+copyright_name: Ally Netzel
 description: > # this means to ignore newlines until "baseurl:"
   Ally's Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  netzay
-learn_profile: netzay
-email_username: netzelally@gmail.com
 
 # Build settings
 markdown: kramdown
