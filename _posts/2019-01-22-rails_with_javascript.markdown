@@ -21,7 +21,7 @@ Using Ajax was probably the trickiest part of this project as it took a lot of t
 
 To display the comments, I again used a listener, fetch to retrieve and parse the response, the constructor to set the attributes of the comment object and the prototype function to share properties and append them to the DOM. 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/XkFD84m"><a href="//imgur.com/XkFD84m"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset=“utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/XkFD84m"><a href="//imgur.com/XkFD84m">prototype</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 This prototype function is also used to show a “Next” button which calls the next method from the comments model using the comments controller.  By finding the recipe id and current comment id in the comments controller, the current comment is passed to the comment model where the next method finds the recipes next comment using Active Record.
 
