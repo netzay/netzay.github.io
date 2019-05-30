@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Finally Finished"
-date:       2019-05-30 17:32:33 +0000
+date:       2019-05-30 13:32:34 -0400
 permalink:  finally_finished
 ---
 
@@ -22,12 +22,11 @@ I added my routes, created a migration file for the oils, migrated the database 
 
 After setting up my CRUD methods I was ready to start on my frontend and began building out my components.  I knew I was going to need two container components one for fetching the oils and one for creating and saving new oils to the database.  The stateless components I would need would be App, About, Header, NavBar and an Oil component.  The App component is essentially the home screen of my app where I render the NavBar, Header and Routes to the Oils, and OilForm containers and the About component.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/5hCn3WO"><a href="//imgur.com/5hCn3WO"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset=“utf-8"></script>
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/NKXLvc1"><a href="//imgur.com/NKXLvc1">App.js</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 I initially wrote my “getOils” fetch request in my Oils Container but since I was using Redux this action was moved to an oils.js file inside my actions folder in my src file.  This oils.js file contained all of my action creators to setOils, setOil, addOil and destroyOil as well as the async actions that would make calls to my backend to perform the actions in my CRUD methods.  I had a createOil, getOil, and deleteOil in addition to the getOils action which all make fetch requests to the backend to GET, POST and DELETE accordingly.  The other file inside my actions folder was for the oilForm where I had the two action creators needed to updateOilFormData and resetOilForm.
 
 The action creators are then passed to either the oils or oilFormData reducers where I set up a switch statement to handle the specific action being passed to then return the correct state of the application due to that action being passed.  To actually make this process work I added a store.js file to my src file which contains the steps which actually hold react and redux together.  Inside this file is where the combineReducers and createStore functions live.  To tie it all together, this file is then imported into the index.js file in the src folder, to then be wrapped in a Provider component that is wrapped around the entire app via the App component.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/5hCn3WO"><a href="//imgur.com/5hCn3WO"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset=“utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/vxfxeqq"><a href="//imgur.com/vxfxeqq">index.js</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 Building this App incrementally by adding the basic parts first without Redux to then see how Redux works with React on a fundamental level was what ultimately connected the dots for me.  Although a simple app, this app drove the points home, connecting the components to the containers where the async actions are called, action creators are triggered and the state of the app is reflected on the DOM in seconds.
