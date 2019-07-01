@@ -1,0 +1,122 @@
+---
+layout: post
+title:      "What is JS?"
+date:       2019-07-01 02:59:45 +0000
+permalink:  what_is_js
+---
+
+These are some study questions I have been reviewing for interview prep.
+
+~JS is a client-side and server side scripting language that can be inserted into HTML pages and understood by web browsers. It is also an OOP language.
+
+What are the differences between Java and JS?
+~Java is what is known as a complete programming language while JavaScript is a coded program that can be introduced to HTML pages.  They are not dependent on one another and both designed for different intent. Java is a structured language like C and JS is a client-side scripting language.
+
+What are the JS data types?
+~ Number, String, Boolean, Object, Undefined
+
+What is the use of isNan function?
+~isNaN function returns true if the argument is not a number otherwise it is false
+
+What is "this" keyword in JS?
+~This keyword refers to the object from where it was called.
+
+What is the difference between ViewState and SessionState?
+~ViewState is specific to a page in a session.
+~SessionState is specific to user specific data that can be accessed across all pages in the web app.
+
+What is ===?
+~A strict equality operator which returns true when the two operands have the same value and are the same datatype. 
+
+How can you submit a form using JS?
+~document.form[0].submit();
+
+Does JS support automatic type conversion?
+~Yes 
+
+How can the style/class of an element be changed?
+document.getElementById("myText")style.fontSize = "20"; or
+document.getElementById("myText").className = "anyclass";
+
+Explain how to read and write a file using JS?
+~2 ways: Using JS extensions, Using a web page and Active X objects.
+
+What are the looping structures in JS?
+~For, While, do-while loops
+
+What is called Variable typing in JS?
+~Variable typing is used to assign a number to a variable and the same variable can be assigned to a string.
+
+How can you convert the string of any base to integer in JS?
+~The parseInt() function is used to convert numbers between different bases. parseInt() takes the string to be converted as it's first parameter, and the second parameter is the based of the given string.
+To covert 4F (of base 16) to integer the code:
+parseInt("4F", 16);
+
+Explain the difference between "==" and "==="?
+~"==" checks only for equality in value when "===" is strict equality returning false if either the value or the type of the two variables are different.
+
+What would be the result of 3+2+"7"?
+~57
+
+What is meant by NULL?
+~NULL is used to represent no value or no object.  Implies no object or null string, no valid boolean value, no number and no array object.
+
+What is the function of delete operator?
+~The delete keyword is used to delete the property as well as its value.Example: 
+var student= {age:20, batch:"ABC"};
+delete student.age;
+
+What is an undefined value in JS?
+~Variable doesn't exist or not assigned to any value or the property doesn't exist
+
+Types of Pop up boxes available in JS?
+~Alert, Confirm and Prompt
+
+What are the two basic groups of datatypes in JS?
+~Primitive - number and boolean.  Reference - complex types like strings and dates
+
+How can generic objects be created?
+~var I = new object();
+
+What is the use of type of?
+~Typeof is an operator used to return a string description of the type of a variable. 
+
+Which keywords are used to handle exceptions?
+~Try, Catch and finally
+Try{
+	Code
+}
+Catch(exp){
+	Code to throw an exception
+}
+Finally{
+	Code runs either it finishes successfully or after catch
+}
+
+Which keyword is used to print text to the screen?
+~document.write("Welcome")
+
+What is the use of blur function?
+~Blur function is used to remove the focus from the specified object
+
+What are the different types of errors in JS?
+~3 types:
+Load time errors: improper syntax errors, generates errors dynamically
+Run time errors: due to misuse of the command inside HTML language.
+Logical errors: bad logic performed on a function which is for a different operation
+
+What is the use of Push method?
+~used to add or append one or more elements to the end of an Array.
+
+What is unshift?
+~used to prepend one or more elements to the beginning of an array
+
+How can a value be appended to an array?
+~arr[arr.length] = value;
+Explain the for-in loop:
+~used to loop through the properties of an object:
+for (variable name in object){
+	statement or block to execute
+}
+
+
