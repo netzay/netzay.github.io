@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Getting organized "
-date:       2019-07-08 03:06:11 +0000
+date:       2019-07-07 23:06:12 -0400
 permalink:  getting_organized
 ---
 
@@ -14,17 +14,14 @@ Figuring out a plan of attack for the best way for me to get and stay organized,
 
 I began to build out my portfolio site as well this week as having  a strong web presence is appearing ever more important.  This is especially true for someone like myself who has a very quiet web presence using solely LinkedIn and Instagram the most often.  Creating a Portfolio site at this point in my career is a must it seems and will be a fun change of pace.
 
-**Goal Points to hit each day:
-Morning:
+Goal points to hit each day:
 * Codewars practice
 * LinkedIn outreach
 * GitHub commits
-Afternoon:
-* Exercise
-* Self care (getting outside)
-Evening:
 * Portfolio site
 * Interview question review
 * Learn something new 
+* Exercise
+* Self care 
 
 
